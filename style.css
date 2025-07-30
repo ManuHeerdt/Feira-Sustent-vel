@@ -21,8 +21,13 @@ h3 {
     align-items: center;
 }
 img{
-    margin: 50px;
-    padding: 50px;
-    width: 60px;
-    height: 60px;
+    width: 30%;
+    height: auto;
+}
+
+/* Estilo para o container que vai alinhar as imagens em uma linha */
+.container {
+  display: flex;
+  justify-content: space-between; /* distribui as imagens com espaço entre elas */
+  align-items: center; /* alinha verticalmente ao centro, se necessário */
 }
